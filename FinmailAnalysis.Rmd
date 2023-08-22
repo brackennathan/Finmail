@@ -1,0 +1,21 @@
+---
+title: "Finamail"
+author: "NathanB"
+date: "2023-08-22"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Financial Email Analysis
+
+This project takes newsletters sent from various financial news agencies and analyzes the sentiment contained in them.
+
+## Managing Packages
+
+```{r}
+pacman::p_load(dplyr, data.table, gmailr) 
+```
+
