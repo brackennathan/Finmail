@@ -13,3 +13,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This document extracts the data from Gmail.
 
+```{r}
+pacman::p_load(gmailr)
+```
+
+
